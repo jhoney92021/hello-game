@@ -35,7 +35,7 @@ public class GalileoAnimation : Godot.AnimatedSprite
 				float inputVertical = Input.GetActionStrength(_down) - Input.GetActionStrength(_up);
 				// position += new Vector2(0, inputVertical * Constant.MoveSpeed * delta);
 				position.y += inputVertical * Constant.MoveSpeed * delta;
-				position.y = Mathf.Clamp(position.y, 16, GetViewportRect().Size.y - 16);
+				// position.y = Mathf.Clamp(position.y, 16, GetViewportRect().Size.y - 16);
 				Position = position;
 				break;
 			case Move.Right:
@@ -43,7 +43,7 @@ public class GalileoAnimation : Godot.AnimatedSprite
 				float inputHorizontal = Input.GetActionStrength(_left) - Input.GetActionStrength(_right);
 				// position += new Vector2(inputHorizontal * Constant.MoveSpeed * delta, 0);
 				position.x -= inputHorizontal * Constant.MoveSpeed * delta;
-				position.x = Mathf.Clamp(position.x, 16, GetViewportRect().Size.x - 16);
+				// position.x = Mathf.Clamp(position.x, 16, GetViewportRect().Size.x - 16);
 				Position = position;
 				break;
 			default:

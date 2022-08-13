@@ -1,8 +1,6 @@
 using Godot;
-using System;
 using Constant = Logic.Constant.Constant;
-
-public class NonPlayerCharacter : Godot.AnimatedSprite
+public class CharacterBox : Area2D
 {
 	private const int DefaultSpeed = 100;
 
@@ -22,10 +20,10 @@ public class NonPlayerCharacter : Godot.AnimatedSprite
 		Position += _speed * delta * direction;
 	}
 
-	// public void Reset()
-	// {
-	// 	direction = Vector2.Left;
-	// 	Position = _initialPos;
-	// 	_speed = Constant.MoveSpeed;
-	// }
+	public void Reset()
+	{
+		direction = Vector2.Left;
+		Position = _initialPos;
+		_speed = Constant.MoveSpeed;
+	}
 }
