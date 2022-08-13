@@ -1,0 +1,9 @@
+C:\Users\jhone\Desktop\hello-game\.mono\temp\obj\Debug\Hello-game.csproj.AssemblyReference.cache
+C:\Users\jhone\Desktop\hello-game\.mono\temp\obj\Debug\Hello-game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhone\Desktop\hello-game\.mono\temp\obj\Debug\Hello-game.AssemblyInfoInputs.cache
+C:\Users\jhone\Desktop\hello-game\.mono\temp\obj\Debug\Hello-game.AssemblyInfo.cs
+C:\Users\jhone\Desktop\hello-game\.mono\temp\obj\Debug\Hello-game.csproj.CoreCompileInputs.cache
+C:\Users\jhone\Desktop\hello-game\.mono\temp\bin\Debug\Hello-game.dll
+C:\Users\jhone\Desktop\hello-game\.mono\temp\bin\Debug\Hello-game.pdb
+C:\Users\jhone\Desktop\hello-game\.mono\temp\obj\Debug\Hello-game.dll
+C:\Users\jhone\Desktop\hello-game\.mono\temp\obj\Debug\Hello-game.pdb
