@@ -3,7 +3,7 @@ using System;
 using Move = Logic.Enums.Move;
 using Helper = Logic.Helpers.MovementDirectionsHelpers;
 
-public class Galileo : KinematicBody2D
+public class GalileoAnimation : KinematicBody2D
 {
 	private AnimatedSprite _animatedSprite;
 	public void HandleAnimationForMovementDirections()
