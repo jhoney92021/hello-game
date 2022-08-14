@@ -31,6 +31,9 @@ public class Galileo : KinematicBody2D
 				_animatedSprite.FlipH = true;
 				_animatedSprite.Play("walking");
 				break;
+			case Move.SideIdle:			
+				_animatedSprite.Play("side_idle");
+				break;
 			default:
 
 				break;
