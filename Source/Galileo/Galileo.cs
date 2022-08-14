@@ -42,7 +42,7 @@ public class Galileo : KinematicBody2D
 
 	public override void _Ready()
 	{
-		_animatedSprite = GetNode<AnimatedSprite>("GalileoAnimation");
+		_animatedSprite = GetNode<AnimatedSprite>("GalileoMovement");
 	}
 
 	public override void _Process(float _delta)

@@ -5,7 +5,7 @@ using Constant = Logic.Constant.Constant;
 using Move = Logic.Enums.Move;
 using Helper = Logic.Helpers.MovementDirectionsHelpers;
 
-public class GalileoAnimation : Godot.AnimatedSprite
+public class GalileoMovement : Godot.AnimatedSprite
 {	
 	// private const int MoveSpeed = 100;
 
