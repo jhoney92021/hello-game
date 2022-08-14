@@ -14,6 +14,9 @@ public class Galileo : KinematicBody2D
 			case Move.Up:
 				_animatedSprite.Play("away_from_screen");
 				break;
+			case Move.UpIdle:
+				_animatedSprite.Play("idle_away_from_screen");
+				break;
 			case Move.Right:
 				_animatedSprite.FlipH = false;
 				_animatedSprite.Play("walking");
@@ -21,12 +24,15 @@ public class Galileo : KinematicBody2D
 			case Move.Down:			
 				_animatedSprite.Play("toward_screen");
 				break;
+			case Move.DownIdle:			
+				_animatedSprite.Play("idle");
+				break;
 			case Move.Left:
 				_animatedSprite.FlipH = true;
 				_animatedSprite.Play("walking");
 				break;
 			default:
-				_animatedSprite.Play("idle");
+
 				break;
 		}
 	}

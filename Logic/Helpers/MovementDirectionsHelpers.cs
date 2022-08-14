@@ -37,9 +37,17 @@ namespace Logic.Helpers
 			{
 				return Move.Up;
 			}
+			else if (Input.IsActionJustReleased("move_up"))
+			{
+				return Move.UpIdle;
+			}
 			else if (Input.IsActionPressed("move_down"))
 			{
 				return Move.Down;
+			}
+			else if (Input.IsActionJustReleased("move_down"))
+			{
+				return Move.DownIdle;
 			}
 			else
 			{

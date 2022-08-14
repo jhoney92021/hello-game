@@ -6,6 +6,8 @@ namespace Logic.Enums
 		Up,
 		Down,
 		Left,
-		Right
+		Right,
+		UpIdle,
+		DownIdle
 	}
 }
