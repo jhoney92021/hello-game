@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Components/Characters/Galileo.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Components/Characters/Bobby.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Components/Characters/Bob.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Components/Characters/Billy.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Components/BackGrounds/TestBackGround.tscn" type="PackedScene" id=5]
+
+[node name="Game" type="Node2D"]
+
+[node name="TestBackGround" parent="." instance=ExtResource( 5 )]
+
+[node name="BillyCharacterBox" parent="." instance=ExtResource( 4 )]
+position = Vector2( 370, 433 )
+
+[node name="Bob" parent="." instance=ExtResource( 3 )]
+position = Vector2( 321, 437 )
+
+[node name="Galileo" parent="." instance=ExtResource( 1 )]
+position = Vector2( 436, 437 )
+
+[node name="Bobby" parent="Galileo" instance=ExtResource( 2 )]
+position = Vector2( 72, 1 )

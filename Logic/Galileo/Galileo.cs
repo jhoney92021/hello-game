@@ -12,10 +12,12 @@ public class Galileo : KinematicBody2D
 		switch (movement)
 		{
 			case Move.Up:
-			case Move.Down	:
 			case Move.Right:
 				_animatedSprite.FlipH = false;
 				_animatedSprite.Play("walking");
+				break;
+			case Move.Down:			
+				_animatedSprite.Play("toward_screen");
 				break;
 			case Move.Left:
 				_animatedSprite.FlipH = true;
