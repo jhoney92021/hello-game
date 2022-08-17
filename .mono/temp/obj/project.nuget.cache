@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Dax3X+2ul7OKsDaML5FdnRFTQ3RfwsNiyXRUd47qo+3rpl4XTpvabx+OzdP0in8AkkSjiYmEybbFm0Ey2o7aFw==",
+  "dgSpecHash": "7U9kqIeV6rktPUfBcV4tXOC5DNSphj2gevvwaiyoVaMkBfibTu0vx59PfOjbEJe/BlBCkN3p2zOj4oqKLiRCGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jhone\\Desktop\\hello-game\\Hello-game.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\16194\\godot-stuff\\hello-game\\Hello-game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\16194\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\16194\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.2\\microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
